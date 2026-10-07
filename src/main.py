@@ -102,7 +102,7 @@ def main():
             if i % 10 == 0:
                 T_correction, loop_id = tracker.detect_loop(curr_frame, vo_map.frames)
                 if T_correction is not None:
-                    display_text, color = f"Loop closed: {loop_id}", (255, 0, 255)
+                    display_text, color = f"Loop detected: {loop_id}", (255, 0, 255)
 
             aligned_pos = viewer.get_aligned_pos(curr_frame.pose)
             trajectory.append(aligned_pos)
