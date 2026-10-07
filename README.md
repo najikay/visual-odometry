@@ -50,8 +50,8 @@ Please read these numbers with the caveats below:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/najikay/Monocular-SLAM-Pipeline.git
-   cd Monocular-SLAM-Pipeline
+   git clone https://github.com/najikay/rgbd-visual-odometry.git
+   cd rgbd-visual-odometry
    ```
 
 2. **Install dependencies:**
